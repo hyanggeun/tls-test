@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tls-test2
+spec:
+  containers:
+    - name: test-tls2
+      image: songsogu/test-tls:latest
